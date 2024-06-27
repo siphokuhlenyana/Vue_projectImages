@@ -1,8 +1,21 @@
+
+<script>
+import HomeCompVue from './components/HomeComp.vue'
+import NavBarVue from './components/NavBar.vue'
+
+export default{
+components:{
+  NavBarVue ,
+  HomeCompVue
+}
+}</script>
+
+
+
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <HomeCompVue/>
+ <NavBarVue/>
+ 
   <router-view/>
 </template>
 
@@ -15,9 +28,9 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
-}
+/* nav {
+  /* padding: 30px; */
+/* }  */
 
 nav a {
   font-weight: bold;
