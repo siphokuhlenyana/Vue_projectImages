@@ -83,7 +83,9 @@ export default {
     color: #fad0f9;
     width: 400px;
     height: 200px;
-
+    position: absolute;
+    top: 25%;
+    right:1rem;
     
 
   }
@@ -102,5 +104,10 @@ export default {
   /* #3{
 margin-left:20px
   } */
+   .home{
+    position: relative;
+   }
+
+
 </style>
 
